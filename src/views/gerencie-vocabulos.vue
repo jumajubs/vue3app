@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="gerencie-vocabulos">
     <h1>{{ nome }}, hoje é Terça-Feira!</h1>
     <p><input type="text" v-model="nome"/></p>
     <p v-if="nome.length > 5">Texto longo!</p>
